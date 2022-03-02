@@ -1,0 +1,32 @@
+﻿
+@{
+
+}
+
+@model BooksViewModel;
+@*<h1>@ViewBag.Calc</h1>*@
+@*<div class="row pt-4">
+    <div class="col-1"></div>
+        <div class="col-2">
+            <h1 class="align-content-around" style="font-family: 'Courier New'">Amazon Bookstore</h1>*@
+@*</div>
+            <div class="col-9">
+                <img src="~/img/amazon.jpg" height="100" />
+    </div>
+    </div>*@
+<div class="row">
+    <div class="container">
+        @foreach (Book b in Model.Books)
+        {
+            <partial name="BookSummary" model="b" />
+        }
+    </div>
+</div>
+@*<a asp-action="Index" asp-route-pageNum="1">1</a>
+    <a asp-action="Index" asp-route-pageNum="2">2</a>
+    <a asp-action="Index" asp-route-pageNum="3">3</a>*@
+@*<nav aria-label="Page navigation example"></nav>*@
+<div page-blah="@Model.PageInfo" page-action="Index" page-class="btn"
+     page-class-normal="btn-outline-dark" page-class-selected="btn-warning" page-classes-enabled="true"
+     class="btn-group pull-right m-1"></div>
+
