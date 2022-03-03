@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FontAwesome/3.2.1": {
+        "type": "package"
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -450,6 +453,28 @@
     }
   },
   "libraries": {
+    "FontAwesome/3.2.1": {
+      "sha512": "sa7WpQ3mL3IyR4bT7DEfWN2LG6/926YAabE9hWLg6RBX/wEfZE3VzB+HLi4h6GyK4UN5Jw4GeNxyN7FX/6dGCw==",
+      "type": "package",
+      "path": "fontawesome/3.2.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/font-awesome-ie7.css",
+        "content/Content/font-awesome-ie7.min.css",
+        "content/Content/font-awesome.css",
+        "content/Content/font-awesome.min.css",
+        "content/Content/font/FontAwesome.otf",
+        "content/Content/font/fontawesome-webfont.eot",
+        "content/Content/font/fontawesome-webfont.svg",
+        "content/Content/font/fontawesome-webfont.ttf",
+        "content/Content/font/fontawesome-webfont.woff",
+        "fontawesome.3.2.1.nupkg.sha512",
+        "fontawesome.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1187,6 +1212,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FontAwesome >= 3.2.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.22"
@@ -1198,11 +1224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj",
+      "projectPath": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\obj\\",
+      "outputPath": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1231,6 +1257,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "FontAwesome": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

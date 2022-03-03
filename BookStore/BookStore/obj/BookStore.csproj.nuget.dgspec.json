@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj": {}
+    "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj": {
+    "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj",
+        "projectPath": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\obj\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

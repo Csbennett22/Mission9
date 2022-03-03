@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/i6Pi33CsNdXMjihyTrAIJjriiKub6HYFMPsZsvIDGu/8vKGtnHnamdUmDpKyRByRBNukly05x8wXZ4BO2iF4A==",
+  "dgSpecHash": "MBYnAFugii1ZNRoDsHr3IBJVKShxzQ8s5pQQwo1laDb/aJALtC9tfdJlED5VP8iPiMrGFlk/8yYdHAp2z/sGdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\Documents\\IS413\\Mission8\\BookStore\\BookStore\\BookStore.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Documents\\IS413\\Mission9\\BookStore\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\fontawesome\\3.2.1\\fontawesome.3.2.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
